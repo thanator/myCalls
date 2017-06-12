@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CallsApp</string>
+    <string name="number">Number:</string>
 </resources>

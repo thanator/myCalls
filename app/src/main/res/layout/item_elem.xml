@@ -15,14 +15,23 @@
             android:id="@+id/img_caller"
             android:layout_width="56dp"
             android:layout_height="56dp"
-            android:src="@mipmap/ic_launcher"/>
+            android:src="@mipmap/ic_launcher"
+            android:layout_weight="1"/>
         <TextView
+            android:text="@string/number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:gravity="center"
+            android:layout_weight="5"/>
+        <TextView
             android:id="@+id/number_text_view"
-            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:text="TITLE"/>
+            tools:text="TITLE"
+            android:layout_weight="16"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
